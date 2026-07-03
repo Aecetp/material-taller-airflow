@@ -1,0 +1,44 @@
+# Airflow — ignorar archivos generados por standalone
+airflow.db
+standalone_admin_password.txt
+webserver_config.py
+*.pid
+
+# Carpetas generadas por Airflow en runtime
+logs/
+dags/__pycache__/
+dags/*.pyc
+__pycache__/
+
+# Archivos de datos generados (capas bronze, silver, gold)
+# Estas carpetas se crean al ejecutar el DAG
+alumno/data/bronze/
+alumno/data/silver/
+alumno/data/gold/
+solucionario/data/bronze/
+solucionario/data/silver/
+solucionario/data/gold/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Editores
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db

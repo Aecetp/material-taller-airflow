@@ -2,13 +2,7 @@
 
 > **Sesión 1 · Módulo: Data Architect** · Pipelines Batch y Orquestación
 
-<!-- 
-  👇 Reemplaza TU_USUARIO/TU_REPO con el nombre real de tu repositorio en GitHub
-  Ejemplo: https://codespaces.new/datapath-academy/lab-airflow-batch
--->
-[![Abrir en GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TU_USUARIO/TU_REPO)
-
-> 💡 **Tip para el profesor:** Reemplaza `TU_USUARIO/TU_REPO` en el link del badge de arriba con el usuario y nombre real del repositorio en GitHub antes de compartirlo con los alumnos.
+[![Abrir en GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Aecetp/material-taller-airflow)
 
 ---
 
@@ -125,10 +119,6 @@ alumno/
     ├── bronze/               ← Se crea al ejecutar la tarea 1
     ├── silver/               ← Se crea al ejecutar la tarea 2
     └── gold/                 ← Se crea al ejecutar la tarea 3
-
-solucionario/
-└── dags/
-    └── lab_medallion_dag.py  ← Solución completa (solo para el profesor)
 
 requirements.txt              ← Dependencias: airflow, pandas, pyarrow
 ```

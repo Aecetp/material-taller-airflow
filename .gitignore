@@ -19,6 +19,10 @@ solucionario/data/bronze/
 solucionario/data/silver/
 solucionario/data/gold/
 
+guia_laboratorio_sesion1.md
+lab_medallion_dag.py
+solucionario_lab_airflow.md
+
 # Python
 *.pyc
 *.pyo

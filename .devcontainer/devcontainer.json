@@ -19,6 +19,11 @@
         }
     },
     "postCreateCommand": "pip install -r requirements.txt",
+    "remoteEnv": {
+        "AIRFLOW_HOME": "${containerWorkspaceFolder}/alumno",
+        "AIRFLOW__WEBSERVER__ENABLE_PROXY_FIX": "True",
+        "AIRFLOW__WEBSERVER__WTF_CSRF_ENABLED": "False"
+    },
     "forwardPorts": [8080],
     "portsAttributes": {
         "8080": {
